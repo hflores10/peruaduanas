@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Libro de reclamaciones Perú Aduanas</title>
+    
+</head>
+<body>
+
+        <h1>ANEXOS</h1>
+        <h2>Anexo I: Formato de Hoja de Reclamación del Libro de Reclamaciones</h2>
+        <form action="">
+            <label for="">
+                LIBRO DE RECLAMACIONES
+            </label>
+            <br/>
+
+            <label for="">
+              <span>FECHA:</span>
+            </label>
+            <br/>
+
+            <label for="">
+              <span>MDA</span>
+              <input type="date" style="width:150px; height:20px">
+
+            </label>
+            <!--
+            <label for="">
+              <span>MES/AÑO</span>
+              <input type="month" style="width:90px; height:16px" min="1" max="12">
+            </label>
+          -->
+            <label for="hnumero">
+              <span>HOJA DE RECLAMACIÓN #</span>
+              <input type="text" name="" id="hnumero" disabled><br/>
+            </label>
+
+            <h4>NOMBRE DE LA PERSONA NATURAL O RAZÓN SOCIAL DE LA PERSONA JURÍDICA / RUC
+                DEL PROVEEDOR. DOMICILIO DEL ESTABLECIMIENTO DONDE SE COLOCA EL LIBRO DE
+                RECLAMACIONES / CÓDIGO DE IDENTIFICACIÓN.
+            </h4>
+            <h5>IDENTIFICACIÓN DEL CONSUMIDOR RECLAMANTE</h5>
+            <label for="">
+              <span>NOMBRE</span>
+              <input type="text" name="" id="nombre" placeholder="Tu nombre" required>
+            </label>
+            <label for="">
+              <span>APELLIDO</span>
+              <input type="text" name="" id="apellido" placeholder="Tu apellido" required>
+            </label>
+            </br>
+            <label for="">
+              <span>DOMICILIO</span>
+              <input type="text" name="" id="domicilio" placeholder="Tu domicilio" required>
+            </label>
+            </br>
+            <label for="">
+              <span>RUC / DNI</span>
+              <input type="text" name="" id="documento" placeholder="RUC/DNI" required>
+            </label>
+            <label for="">
+              <span>CELULAR</span>
+              <input type="tel" name="" id="telefono" placeholder="Celular" required>
+            </label>
+            <label for="">
+              <span>CORREO</span>
+              <input type="email" name="" id="correo" placeholder="Correo" required>
+            </label>
+            </br>
+            <h5>IDENTIFICION DEL BIEN O SERVICIO CONTRATADO</h5>
+            <label for="producto">
+                <span>PRODUCTO</span>
+                <input type="radio" id="producto" name="bien">
+            </label>
+            <label for="servicio">
+                <span>SERVICIO</span>
+                <input type="radio" id="servicio" name="bien">
+            </label>
+            <br/>
+            <br/>
+            <label for="descripcion">
+                <span>Descrpción/Monto reclamado</span>
+                <input type="text" id="descripcion" placeholder="número">
+                            </label>
+            <h5>DETALLES DE LA RECLAMACION Y PEDIDO DEL CONSUMIDOR</h5>
+            <textarea name="mensaje" id="mensaje" rows="8" cols="80" placeholder="detalla tu reclamo y qué solicitas para solucionarlo."></textarea>
+            <br/>
+            <label for="vb">
+                <span>RECLAMO</span>
+                <input type="radio" name="tipo12" id="vb">
+            </label><br/>
+            <label for="vb1">
+                <span>QUEJA</span>
+                <input type="radio" name="tipo12" id="vb1">
+            </label></br>
+            <span>FIRMA DEL CONSUMIDOR</span></br>
+            <h5>OBSERVACIONES Y ACCIONES ADOPTADAS POR EL PROVEEDOR</h5>
+            <label for="fecha">
+                <span>FECHA DE COMUNICACION DE RESPUESTA</span>
+                <input type="date" name="" id="fecha" disabled>
+                </br>
+                <span>FIRMA DEL PROVEEDOR</span>
+            </label></br>
+            <!-- <input type="button" value="Save" id="boton"/> -->
+            <input type="submit" name="" value="Save" id="boton">
+
+        </form>
+
+
+    <section>
+        <figure>
+            <img src="" alt="">
+            <figcaption></figcaption>
+        </figure>
+    </section>
+    <script src="book.js" charset="utf-8"></script>
+</body>
+</html>
